@@ -36,4 +36,5 @@ Open Minesweep.cpp.
 Run with CTRL+F9.
 
 #### Sample Execution
-![sample-execution]()
+![screenshot1](screenshot1.jpg)
+![screenshot2](screenshot2.jpg)
