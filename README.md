@@ -16,7 +16,7 @@ See: [Downloading Borland C++ 3.1](https://winworldpc.com/download/49068656-18DA
 We assume the following folder structure:
 ```text
 C:\BORLANDC
-C:\Minesweep.cpp
+C:\Minsweep.cpp
 C:\KEY.H
 C:\MOUSE.H
 C:\GMOUSE.com
