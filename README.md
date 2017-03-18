@@ -31,7 +31,7 @@ Set `Linker Libraries` as below:
 
 ![linker-libraries](linker-libraries.jpg)
 
-Open Minesweep.cpp.
+Open Minsweep.cpp.
 
 Run with CTRL+F9.
 
