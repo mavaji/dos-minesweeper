@@ -2,7 +2,7 @@
  * author: Vahid Mavaji
  * Year: 2000
  */
- 
+
 #include<iostream.h>
 #include<conio.h>
 #include<graphics.h>
@@ -350,7 +350,7 @@ void minTable::Play() {
                         Mouse.setoff();
                         for (int k = 0; k < Col * Line; k++)
                             if (*(MinsArray + k) == 1)
-                                (Keys + k)->drawFind('�');
+                                (Keys + k)->drawFind('\xE8');
                         Jack(3);
                         Mouse.seton();
                         return;
@@ -421,9 +421,9 @@ void main() {
     clrscr();
     int x, y, c, n;
 
-    cout << "Enter coloumns & lines:";
+    cout << "Enter columns & lines:";
     cin >> x >> y;
-    cout << "Enter color & nomber of mins:";
+    cout << "Enter color & number of mines:";
     cin >> c >> n;
     minTable obj(x, y, c);
     int i = 0;
